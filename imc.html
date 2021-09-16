@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora IMC</title>
+    <link rel="stylesheet" href="cssimc.css">
+</head>
+
+<body>
+    <header>
+        <h1>CALCULADORA DE IMC</h1>
+    </header>
+    <div style="display: flex;">
+        <div id="calc">
+        <p>    INFORME SEU PESO(kg)</p><input type="number" name="peso" class="peso""><br>
+        <p>INFORME SUA ALTURA(m.cm)</p><input type="number" name="altura" class="altura"><br>
+        <input type="button" value="Calcular" class="button" onclick="docalc()">
+        <div id="res"></div>
+        </div>
+        
+    </div>
+    <footer><p>&copy;2021 Jv Industries</p></footer>
+    <script src="imcs.js" ></script>
+</body>
+</html>
